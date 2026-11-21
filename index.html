@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>Feild Tranning</title>
+</head>
+<body>
+    <section class="hero">
+        <nav class="navbar">
+            <h2>Taste & Co </h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <h1>Fresh Flavors, Warm Moments</h1>
+            <p>Crafted daily with seasonal ingredients and passion.</p>
+            <button>Explore Menu</button>
+        </div>
+    </section>
+
+     <section class="info-section">
+
+        <div class="info-card">
+            <h3>About Us</h3>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime pariatur cumque voluptatibus
+                temporibus?
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>Special Offers</h3>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
+        </div>
+
+    </section>
+
+
+
+    <section class="menu-section">
+
+        <h2>Special Menu</h2>
+
+        <div class="filter-buttons">
+
+            <button class="active" data-filter="all">All</button>
+
+            <button data-filter="breakfast">Breakfast</button>
+
+            <button data-filter="main">Main</button>
+
+            <button data-filter="drinks">Drinks</button>
+
+        </div>
+
+        <div class="menu-container">
+
+            <div class="menu-item" data-category="breakfast">
+                <div>
+                    <h4>Avocado Toast</h4>
+                    <span>Popular</span>
+                </div>
+                <strong>8 LE</strong>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div>
+                    <h4>Grilled Chicken Bowl</h4>
+                    <span>Chef Choice</span>
+                </div>
+                <strong>20 LE</strong>
+            </div>
+
+            <div class="menu-item" data-category="drinks">
+                <div>
+                    <h4>Iced Caramel Latte</h4>
+                    <span>New</span>
+                </div>
+                <strong>12 LE</strong>
+            </div>
+
+            <div class="menu-item" data-category="main">
+                <div>
+                    <h4>Spicy Arrabbiata Pasta</h4>
+                    <span>Spicy</span>
+                </div>
+                <strong>15 LE</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="schedule">
+        <h2>Daytime Schedule</h2>
+        <p>Open Daily: Sunday - Thursday | 8:00 AM - 6:00 PM</p>
+    </section>
+
+    <section class="gallery">
+        <h2>Food Gallery</h2>
+
+        <div class="gallery-container">
+
+            <img src="./imges/burger.jpg"
+                 alt="Healthy Food">
+
+            <img src="./imges/cheken.jpg"
+                 alt="Grilled Food">
+
+            <img src="./imges/download.jpg"
+                 alt="Fresh Salad">
+
+            <img src="./imges/pizza1.jpg"
+                 alt="Pasta">
+        </div>
+    </section>
+
+    <div class="image-modal" id="imageModal">
+        <span class="close">&times;</span>
+        <img id="modalImage" src="" alt="Food Preview">
+    </div>
+
+    <h1>Contact Us</h1>
+    <div class="wrap">
+    <div class="container">
+      <div class="form-group">
+        <label>Name *</label>
+        <input type="text" id="name" />
+      </div>
+      <div class="form-group">
+        <label>Email *📨</label>
+        <input type="text" id="email" />
+      </div>
+      <div class="form-group">
+        <label>Massege *</label>
+        <textarea id="massege"></textarea>
+      </div>
+      <button id="addBtn">send Massege </button>
+
+    </div>
+    <div class="main">
+      <h2>Visit Us</h2>
+      <p>
+      📍main Street.city center
+    </p>
+    <p>📞+20 100 000 0000</p>
+     <div class="social">
+      <span>f</span>
+      <span>📷</span>
+      <span>X</span>
+    </div>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
