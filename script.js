@@ -1,11 +1,11 @@
 let togglebtn = document.getElementById("togglebtn");
 let navLinks = document.getElementById("navLinks");
-let btn = document.getElementById("btn");
+let btnex = document.getElementById("btnex");
 
 togglebtn.addEventListener("click", ()=> {
     navLinks.classList.toggle("active");
 });
-btn.addEventListener("click", function() {
+btnex.addEventListener("click", function() {
     document.getElementById("menu").scrollIntoView({
         behavior: "smooth"
     });
